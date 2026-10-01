@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isValid(string s) {
-        stack<int>st;
+        stack<char>st;
         int n = s.size();
         for(int i=0;i<n;i++){
             if(s[i] == '(' || s[i] == '{' || s[i] == '['){
