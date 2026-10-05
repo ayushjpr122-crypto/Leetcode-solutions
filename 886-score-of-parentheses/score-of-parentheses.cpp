@@ -1,7 +1,7 @@
 class Solution {
 public:
     int scoreOfParentheses(string s) {
-        stack<char>st;
+        stack<int>st;
         int n = s.size();
         int reset = 0;
         for(int i=0;i<n;i++){
